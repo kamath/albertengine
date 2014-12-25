@@ -1,0 +1,21 @@
+@import url(animate.css);
+@import url(bootstrap.css);
+@import url(font-awesome.min.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(carousel.css);
+@-webkit-keyframes puls { 0% {color: #45CEEF;} 25% {color: #FFF5A5;} 50% {color: #FFD4DA;} 75% {color: #99D2E4;} 100% {color: #D8CAB4;} } 
+
+
+.jumbotron
+{
+    background-color: transparent;
+    font-family: 'Open Sans';
+    color: black
+}
+
+h1
+{
+	-webkit-animation: puls 10s infinite alternate;
+}
